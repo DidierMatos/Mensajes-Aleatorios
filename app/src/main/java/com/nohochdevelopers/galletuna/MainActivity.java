@@ -1,5 +1,6 @@
 package com.nohochdevelopers.galletuna;
 
+import android.graphics.Color;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
                 txtViewFrase.setText(aleatorio);
                 constraintLayout.setBackgroundColor(color);
+                btnCambio.setTextColor(color);
 
                 //Toast.makeText(MainActivity.this, "Activity created", Toast.LENGTH_SHORT).show();
                 Log.d(TAG,"We're logging from the onCreate() method");
