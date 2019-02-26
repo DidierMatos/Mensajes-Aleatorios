@@ -4,7 +4,7 @@ import java.util.Random;
 
 class FactBook {
 
-    private final String[] frases{
+    private final String[] frases = {
             "Hola",
             "HOLA2",
             "QUE ONDA",
@@ -13,7 +13,7 @@ class FactBook {
             "QUE TRANZA",
             "JAJA",
             "LOL",
-            "NOSE"   };
+            "NOSE"};
 
     String getFact(){
 
