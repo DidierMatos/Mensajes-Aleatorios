@@ -1,14 +1,12 @@
 package com.nohochdevelopers.galletuna;
 
-import android.graphics.Color;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
-import java.util.Random;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnCambio = (Button) findViewById(R.id.btnCambio);
-        txtViewFrase = (TextView) findViewById(R.id.bienvenidaTxtV);
-        constraintLayout = (ConstraintLayout) findViewById(R.id.constraintLayout);
+        btnCambio = findViewById(R.id.btnCambio);
+        txtViewFrase = findViewById(R.id.txtVBienvenida);
+        constraintLayout = findViewById(R.id.constraintLayout);
 
         btnCambio.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 txtViewFrase.setText(aleatorio);
                 constraintLayout.setBackgroundColor(color);
 
-
+                Toast.makeText(MainActivity.this, "Activity created", Toast.LENGTH_SHORT).show();
 
 
             }
