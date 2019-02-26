@@ -2,9 +2,9 @@ package com.nohochdevelopers.galletuna;
 
 import java.util.Random;
 
-public class FactBook {
+class FactBook {
 
-    private final String[] frases = new String[]{
+    private final String[] frases{
             "Hola",
             "HOLA2",
             "QUE ONDA",
@@ -15,7 +15,7 @@ public class FactBook {
             "LOL",
             "NOSE"   };
 
-    public String getFact(){
+    String getFact(){
 
         Random randomGenerator = new Random();
 
