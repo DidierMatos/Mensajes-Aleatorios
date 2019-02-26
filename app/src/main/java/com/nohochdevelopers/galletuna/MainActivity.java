@@ -1,5 +1,7 @@
 package com.nohochdevelopers.galletuna;
 
+import android.graphics.Color;
+import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,11 +12,11 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnCambio;
-    TextView txtViewFrase;
-
+    private Button btnCambio;
+    private TextView txtViewFrase;
     private FactBook factBook = new FactBook();
 
+    private ConstraintLayout constraintLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnCambio = (Button) findViewById(R.id.btnCambio);
         txtViewFrase = (TextView) findViewById(R.id.bienvenidaTxtV);
+        constraintLayout = (ConstraintLayout) findViewById(R.id.constraintLayout);
 
         btnCambio.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 String aleatorio = factBook.getFact();
 
                 txtViewFrase.setText(aleatorio);
+                constraintLayout.setBackgroundColor(Color.BLUE);
 
             }
         });
