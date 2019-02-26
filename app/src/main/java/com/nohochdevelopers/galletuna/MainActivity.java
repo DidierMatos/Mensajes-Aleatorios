@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnCambio;
     private TextView txtViewFrase;
     private FactBook factBook = new FactBook();
+    private ColorWheel colorWheel = new ColorWheel();
 
     private ConstraintLayout constraintLayout;
 
@@ -32,9 +33,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 String aleatorio = factBook.getFact();
+                int color = colorWheel.getColor();
 
                 txtViewFrase.setText(aleatorio);
-                constraintLayout.setBackgroundColor(Color.BLUE);
+                constraintLayout.setBackgroundColor(color);
+                
 
             }
         });
