@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
                 constraintLayout.setBackgroundColor(color);
 
 
+
+
             }
         });
 

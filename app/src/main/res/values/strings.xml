@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Galletuna</string>
-    <string name="textview">TextView</string>
+    <string name="titulo1">Did you know??</string>
+    <string name="button1">Presiona</string>
+    <string name="cuerpo">Hola Mundo!</string>
 </resources>
