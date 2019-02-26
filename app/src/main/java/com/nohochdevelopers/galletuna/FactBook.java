@@ -20,7 +20,7 @@ class FactBook {
         Random randomGenerator = new Random();
 
         int randomNumber = randomGenerator.nextInt(frases.length);
-        String aleatorio = frases[randomNumber];
+        return frases[randomNumber];
 
     }
 
