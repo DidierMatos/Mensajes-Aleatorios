@@ -13,6 +13,9 @@ public class MainActivity extends AppCompatActivity {
     Button btnCambio;
     TextView txtViewFrase;
 
+    private FactBook factBook = new FactBook();
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,21 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String[] frases = {
-                        "Hola",
-                        "HOLA2",
-                        "QUE ONDA",
-                        "COMO ESTAS",
-                        "BIENVENIDO",
-                        "QUE TRANZA",
-                        "JAJA",
-                        "LOL",
-                        "NOSE"   };
-
-                Random randomGenerator = new Random();
-
-                int randomNumber = randomGenerator.nextInt(10);
-                String aleatorio = frases[randomNumber];
+                String aleatorio = factBook.getFact();
 
                 txtViewFrase.setText(aleatorio);
 
