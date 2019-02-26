@@ -4,18 +4,18 @@ import java.util.Random;
 
 public class FactBook {
 
-    public String getFact(){
+    private final String[] frases = new String[]{
+            "Hola",
+            "HOLA2",
+            "QUE ONDA",
+            "COMO ESTAS",
+            "BIENVENIDO",
+            "QUE TRANZA",
+            "JAJA",
+            "LOL",
+            "NOSE"   };
 
-        String[] frases = {
-                "Hola",
-                "HOLA2",
-                "QUE ONDA",
-                "COMO ESTAS",
-                "BIENVENIDO",
-                "QUE TRANZA",
-                "JAJA",
-                "LOL",
-                "NOSE"   };
+    public String getFact(){
 
         Random randomGenerator = new Random();
 
