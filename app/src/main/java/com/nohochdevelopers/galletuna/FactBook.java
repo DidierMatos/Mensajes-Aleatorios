@@ -13,8 +13,8 @@ class FactBook {
             "Estar en la ruina es una situación temporal. Ser pobre es un estado mental",
             "Tengo la mayor de todas riquezas: la de no desearla",
             "Trabajo con pasión y a cada paso, una oportunidad aparece frente a tí",
-            "Pronto encontrarás trabajo"
-            "La salud no es sólo la ausencia de enfermedad, sino también la armonía con uno mismo y el entorno"
+            "Pronto encontrarás trabajo",
+            "La salud no es sólo la ausencia de enfermedad, sino también la armonía con uno mismo y el entorno",
             "Tienes que dormir más"
 
     };
