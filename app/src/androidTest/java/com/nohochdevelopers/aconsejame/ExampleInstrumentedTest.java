@@ -1,4 +1,4 @@
-package com.nohochdevelopers.galletuna;
+package com.nohochdevelopers.aconsejame;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.nohochdevelopers.galletuna", appContext.getPackageName());
+        assertEquals("com.nohochdevelopers.aconsejame", appContext.getPackageName());
     }
 }

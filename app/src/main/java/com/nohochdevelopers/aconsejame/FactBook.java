@@ -1,4 +1,4 @@
-package com.nohochdevelopers.galletuna;
+package com.nohochdevelopers.aconsejame;
 
 import java.util.Random;
 
