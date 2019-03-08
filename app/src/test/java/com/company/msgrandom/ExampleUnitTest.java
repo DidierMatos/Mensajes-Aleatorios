@@ -1,4 +1,4 @@
-package com.nohochdevelopers.aconsejame;
+package com.company.msgrandom;
 
 import org.junit.Test;
 

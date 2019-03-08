@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Aconsejame</string>
-    <string name="titulo1">Pide un consejo:</string>
+    <string name="app_name">Mensaje Random</string>
+    <string name="titulo1">Genera el mensaje</string>
     <string name="button1">Presiona</string>
-    <string name="cuerpo">Divide y vencerás!</string>
+    <string name="cuerpo">Hola</string>
 </resources>
